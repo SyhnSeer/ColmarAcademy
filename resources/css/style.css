@@ -99,6 +99,7 @@ header nav a {
 .about .info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 40%;
   margin-top: 32px;
   margin-bottom: 32px;
@@ -123,7 +124,7 @@ header nav a {
 .section img {
   height: auto;
   margin: 16px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .info .section .content a {
@@ -131,6 +132,83 @@ header nav a {
 }
 
 .info .section .content p {
-  margin-top: 8px;
   margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.courses h2 {
+  margin-right: 32px;
+  margin-top: 32px;
+  text-align: center;
+}
+
+.courses img {
+  height: auto;
+  max-width: 100%;
+}
+
+.courses h3 {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.courses p {
+  margin-left: 16px;
+  margin-top: 8px;
+}
+
+.courses .row {
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+}
+
+.comart {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.business {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.software {
+  margin-left: 72px;
+}
+
+.data {
+  margin-left: 72px;
+}
+
+.design {
+  margin-right: 72px;
+}
+
+.market {
+  margin-right: 72px;
+}
+
+.video {
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 60%;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.extras {
+  width: 40%;
+}
+
+.extras img {
+  height: auto;
+  margin: 16px;
+  width: 35%;
+}
+
+.extras .row .column {
+  width: 65%;
 }
