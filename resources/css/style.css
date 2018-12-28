@@ -22,15 +22,22 @@ header nav {
   margin-right: 24px;
 }
 
-header nav a {
+nav a {
   color: black;
+  padding-left: 8px;
+  padding-right: 8px;
   text-decoration: none;
-  margin-left: 16px;
+  transition: all 0.5s ease 0.25s;
+}
+
+nav a:hover {
+  background-color: black;
+  color: white;
 }
 
 .container {
-  max-width: 960px;
   margin: auto;
+  max-width: 960px;
 }
 
 .column {
@@ -70,6 +77,13 @@ header nav a {
   padding-top: 8px;
   text-align: center;
   text-decoration: none;
+  transition: all 0.5s ease 0.25s;
+}
+
+.banner a:hover {
+  background-color: white;
+  border: solid black;
+  color: black;
 }
 
 .about {
@@ -127,8 +141,14 @@ header nav a {
   width: 100%;
 }
 
-.info .section .content a {
+.info a {
   text-decoration: none;
+  transition: all 0.5s ease 0.25s;
+}
+
+.info a:hover {
+  background-color: black;
+  color: white;
 }
 
 .info .section .content p {
