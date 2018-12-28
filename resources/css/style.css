@@ -84,8 +84,7 @@ nav a:hover {
 }
 
 .banner .image {
-  display: flex;
-  margin: auto;
+  margin: 32px 24px;
 }
 
 @media only screen and (min-width: 751px) {
@@ -99,8 +98,7 @@ nav a:hover {
 
 .banner img {
   height: auto;
-  margin: 32px 24px;
-  max-width: 100%;
+  width: 100%;
 }
 
 .banner .column {
@@ -136,11 +134,12 @@ nav a:hover {
   width: 60%;
 }
 
+.main .image {
+  margin: 32px 24px;
+}
+
 .main img {
   height: auto;
-  margin-bottom: 32px;
-  margin-top: 32px;
-  min-width: 50%;
   width: 100%;
 }
 
@@ -201,14 +200,12 @@ nav a:hover {
 }
 
 .section .image {
-  display: flex;
-  margin: auto;
+  margin: 16px;
   width: 35%;
 }
 
 .section .image img {
   height: auto;
-  margin: 16px;
   width: 100%;
 }
 
