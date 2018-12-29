@@ -83,12 +83,9 @@ nav a:hover {
   }
 }
 
-.banner .image {
-  margin: 32px 24px;
-}
-
 @media only screen and (min-width: 751px) {
   .banner .image {
+    margin: 32px 24px;
     width: 60%;
   }
   .banner .column {
@@ -130,6 +127,7 @@ nav a:hover {
   display: flex;
   flex-direction: column;
   width: 60%;
+  margin: 0 auto;
 }
 
 .main .image {
@@ -224,7 +222,7 @@ nav a:hover {
   padding: 8px;
 }
 
-.info .section .content p {
+.info p {
   margin-bottom: 8px;
   margin-top: 8px;
 }
