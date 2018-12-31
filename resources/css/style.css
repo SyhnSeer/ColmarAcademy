@@ -195,6 +195,7 @@ nav a:hover {
 }
 
 .section .content {
+  justify-content: center;
   display: flex;
   flex-direction: column;
 }
@@ -224,10 +225,6 @@ nav a:hover {
 .info p {
   margin-bottom: 8px;
   margin-top: 8px;
-}
-
-.info h3 {
-  margin-top: 16px;
 }
 
 .courses h2 {
