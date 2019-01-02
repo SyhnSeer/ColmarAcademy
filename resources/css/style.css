@@ -5,14 +5,20 @@ header {
   justify-content: space-between;
 }
 
-header>p {
+.title {
   display: flex;
-  font-size: 32px;
-  font-weight: bold;
+}
+
+.title img {
   margin-left: 24px;
 }
 
-header>p span {
+.title p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.title p span {
   font-weight: lighter;
   opacity: 0.5;
 }
