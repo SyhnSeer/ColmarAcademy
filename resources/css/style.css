@@ -391,6 +391,8 @@ nav a:hover {
 }
 
 .exhibit h2 {
+  margin-bottom: 32px;
+  margin-top: 32px;
   text-align: center;
 }
 
@@ -429,6 +431,7 @@ video {
 
 .extras .row .column {
   width: 65%;
+  justify-content: center;
 }
 
 @media only screen and (max-width: 750px) {
@@ -436,7 +439,7 @@ video {
     width: 100%;
     margin: 0;
   }
-  .video h2 {
+  .exhibit h2 {
     margin-bottom: 16px;
     margin-top: 32px;
   }
