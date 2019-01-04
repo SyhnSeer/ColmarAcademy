@@ -60,7 +60,7 @@ header {
   position: fixed;
   right: 0;
   top: 0;
-  transition: all 0.5s ease 0.25s;
+  transition: all 0.25s ease 0.25s;
   z-index: 1;
 }
 
@@ -148,7 +148,7 @@ nav a:hover {
 
 .banner {
   display: flex;
-  transition: all 0.5s ease 0.25s;
+  transition: all 0.25s ease 0.25s;
   margin-top: 64px;
 }
 
@@ -216,7 +216,7 @@ nav a:hover {
   width: 60%;
   margin-left: 24px;
   margin-right: 24px;
-  transition: all 0.5s ease 0.25s;
+  transition: all 0.25s ease 0.25s;
 }
 
 .main:hover {
@@ -286,7 +286,7 @@ nav a:hover {
 
 .info .section {
   display: flex;
-  transition: all 0.5s ease 0.25s;
+  transition: all 0.25s ease 0.25s;
 }
 
 .info .section:hover {
@@ -330,14 +330,13 @@ nav a:hover {
 
 
 .courses .column {
-  transition: all 0.5s ease 0.25s;
+  transition: all 0.25s ease 0.25s;
   width: 30%;
 }
 
 .courses .column:hover {
   background-color: rgb(211,211,211);
 }
-
 
 .courses h2 {
   margin-bottom: 32px;
@@ -426,7 +425,7 @@ nav a:hover {
 .video {
   margin-left: 24px;
   margin-right: 24px;
-  transition: all 0.5s ease 0.25s;
+  transition: all 0.25s ease 0.25s;
   width: 60%;
 }
 
@@ -454,7 +453,7 @@ video {
 }
 
 .extras .row {
-  transition: all 0.5s ease 0.25s;
+  transition: all 0.25s ease 0.25s;
 }
 
 .extras .row:hover {
