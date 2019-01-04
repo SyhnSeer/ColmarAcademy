@@ -106,6 +106,7 @@ nav a:hover {
   background-color: black;
   color: white;
   font-size: 1.25em;
+  font-weight: bold;
   padding: 8px 16px;
 }
 
@@ -202,6 +203,7 @@ nav a:hover {
   border: solid black;
   color: black;
   font-size: 1.25em;
+  font-weight: bold;
 }
 
 .about {
@@ -214,6 +216,11 @@ nav a:hover {
   width: 60%;
   margin-left: 24px;
   margin-right: 24px;
+  transition: all 0.5s ease 0.25s;
+}
+
+.main:hover {
+  background-color: rgb(211,211,211);
 }
 
 .main .image {
@@ -308,9 +315,10 @@ nav a:hover {
 }
 
 .info a:hover {
-  background-color: black;
+  background-color: blue;
   color: white;
   font-size: 1.25em;
+  font-weight: bold;
   padding: 8px;
 }
 
@@ -417,7 +425,12 @@ nav a:hover {
 .video {
   margin-left: 24px;
   margin-right: 24px;
+  transition: all 0.5s ease 0.25s;
   width: 60%;
+}
+
+.video:hover {
+  background-color: rgb(211,211,211);
 }
 
 video {
