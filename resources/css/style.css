@@ -121,9 +121,16 @@ nav a:hover {
   }
   .mobile-header {
     align-items: center;
+    background-color: white;
+    border-bottom: solid thin;
     display: flex;
     height: 61px;
     justify-content: space-around;
+    left: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
   }
 }
 
