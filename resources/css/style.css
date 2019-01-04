@@ -160,6 +160,15 @@ nav a:hover {
   margin-top: 64px;
 }
 
+.banner  h1 {
+  margin-top: 32px;
+}
+
+.banner  p {
+  margin-bottom: 24px;
+  margin-top: 32px;
+}
+
 .banner:hover {
   background-color: rgb(211,211,211);
 }
@@ -168,16 +177,15 @@ nav a:hover {
   .banner {
     flex-direction: column;
   }
+  .banner h1, p, a {
+    margin-left: 16px;
+  }
+  .banner a {
+    margin-right: 16px;
+  }
 }
 
 @media only screen and (min-width: 751px) {
-  .banner p {
-    margin-bottom: 24px;
-    margin-top: 32px;
-  }
-  .banner a {
-    margin-right: 24px;
-  }
   .banner .image {
     margin: 32px 24px;
     width: 60%;
@@ -199,6 +207,7 @@ nav a:hover {
 .banner a {
   background-color: black;
   color: white;
+  margin-right: 24px;
   padding-bottom: 8px;
   padding-top: 8px;
   text-align: center;
@@ -257,6 +266,12 @@ nav a:hover {
   }
   .info .section {
     flex-direction: column;
+  }
+  .info p {
+    margin-left: 0;
+  }
+  .info a {
+    margin-left: 0;
   }
   .section .image img {
     display: none;
